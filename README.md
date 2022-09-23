@@ -13,5 +13,14 @@ Entre os geradores CC existe a seguinte subdivisão que depende de como o campo 
 + Gerador em série
 + Gerador composto
 ## Motivação
-Nosso trabalho objetiva realizar com praticidade os cálculos de valores terminais e reações internas (reação de armadura) dos diferentes tipos de geradores CC, com intuito acadêmico de forma a facilitar e estimular o aprendizado para estudantes da área de elétrica.
+Nosso trabalho objetiva realizar com praticidade os cálculos de valores terminais e reações internas (reação de armadura) dos diferentes tipos de geradores CC, com intuito acadêmico de facilitar e estimular o aprendizado para estudantes da área de elétrica.
+
 ## Função
+
+O aplicativo será capaz de: 
++ Executar cálculos, a partir de características da máquina elétrica e condições de operação inseridas pelo usuário ou obtidas através de sensores;
++ Exibir os resultados de forma tabelada em interface gráfica;
++ Salvar os dados em formato .csv;
++ Apresentar curvas relativas a características de tensão terminal e outros dados relevantes do gerador/motor em interface gráfica;
++ Salvar as curvas apresentadas em arquivos .jpeg.
+
