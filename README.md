@@ -1,7 +1,7 @@
 # Características terminais e Funcionamento dos geradores CC.
 
 ## Equipe
-+ Ten Fábio Guilherme
++ Ten Fábio Guilherme Ribeiro - 21101
 + Al **Felipe Leitão** Rosa Fernandes - 20408
 
 ## Conceito
