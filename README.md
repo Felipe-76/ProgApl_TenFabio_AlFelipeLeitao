@@ -1,8 +1,8 @@
 # Características terminais e Funcionamento dos geradores CC.
 
 ## Equipe
-1. Ten Fábio Guilherme
-2. Al **Felipe Leitão** Rosa Fernandes - 20408
++ Ten Fábio Guilherme
++ Al **Felipe Leitão** Rosa Fernandes - 20408
 
 ## Conceito
 Máquinas CC são máquinas de corrente contínua capazes de converter energia mecânica em elétrica e vice-versa, sendo divididas nas seguintes categorias:
