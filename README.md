@@ -1,4 +1,5 @@
-# Trabalho de Programação aplicada do 6o semestre.
+# Características terminais e reações internas aos geradores CC.
+
 ## Conceito
 Máquinas CC são máquinas de corrente contínua capazes de converter energia mecânica em elétrica e vice-versa, sendo divididas nas seguintes categorias:
 1. Geradores CC: Energia mecânica -> Energia elétrica.
