@@ -52,8 +52,8 @@ notebook.pack(pady=10, expand=True)
 frame1 = ttk.Frame(notebook, width=800 , height=600)
 frame2 = ttk.Frame(notebook, width=800 , height=600)
 frame3 = ttk.Frame(notebook, width=800 , height=600)
-frame4 =  ttk.Frame(notebook, width=800 , height=600)
-frame5 =  ttk.Frame(notebook, width=800 , height=600)
+frame4 = ttk.Frame(notebook, width=800 , height=600)
+frame5 = ttk.Frame(notebook, width=800 , height=600)
 
 
 frame1.pack(fill='both', expand=True)
@@ -192,9 +192,9 @@ escala_Vf.grid(row=3, column=0 )
 button_simularexcind = tk.Button(frame2, text='Simular!', command=simularexcind)
 button_simularexcind.grid(row=4, column=0, columnspan=2)
 
-ckt_excind = ImageTk.PhotoImage(Image.open("excind.jpg"))
-ckt_excindd= tk.Label(frame2, image=ckt_excind)
-ckt_excindd.grid(row=0, column=0)
+# ckt_excind = ImageTk.PhotoImage(Image.open("excind.jpg"))
+# ckt_excindd= tk.Label(frame2, image=ckt_excind)
+# ckt_excindd.grid(row=0, column=0)
 
 
 
