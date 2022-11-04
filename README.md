@@ -28,3 +28,6 @@ O aplicativo será capaz de:
 + Apresentar curvas relativas a características de tensão terminal e outros dados relevantes do gerador/motor em interface gráfica;
 + Salvar as curvas apresentadas em arquivos .jpeg.
 
+## Esboço da GUI
+
+![](esboco "Esboço")
