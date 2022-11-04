@@ -30,4 +30,4 @@ O aplicativo será capaz de:
 
 ## Esboço da GUI
 
-![](esboco "Esboço")
+![alt text for screen readers](esboco.png "Esboço")
