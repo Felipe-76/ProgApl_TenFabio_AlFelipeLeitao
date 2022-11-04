@@ -38,15 +38,20 @@ fig.savefig("grafico.jpeg")
 
 # root window
 root = tk.Tk()
-root.iconbitmap('eletrica.ico')
-root.geometry('800x600')
+# root.iconbitmap('eletrica.ico')
+
+# Adquirir tamanho da tela
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+root.geometry(f"{screen_width}x{screen_height}")
+
+# root.geometry('800x600')
 root.configure(bg="white")
 root.title('Simulador de Geradores')
 
 # create a notebook
-notebook = ttk.Notebook(root)
-notebook.pack(pady=10, expand=True)
-
+notebook = ttk.Notebook(root, height= screen_height, width=screen_width)
+notebook.pack(pady=0, expand=False)
 
 # create frames
 frame1 = ttk.Frame(notebook, width=800 , height=600)
@@ -74,34 +79,37 @@ notebook.add(frame5, text='Gerador Composto')
 
 
 #menu
+variaveis = tk.LabelFrame(frame1, text= "Insira aqui as variáveis: ", padx=50, pady=10)
+variaveis.grid()
 
-label_RA=tk.Label(frame1,text='RA:').grid(row=0, column=0)
-caixa_RA= tk.Entry(frame1, width=7)
+
+label_RA= tk.Label(variaveis,text='RA:').grid(row=0, column=0, sticky="W")
+caixa_RA= tk.Entry(variaveis, width=7)
 caixa_RA.grid(row=0, column=1)
 
 
-label_Raj=tk.Label(frame1,text='Raj:').grid(row=1, column=0)
-caixa_Raj= tk.Entry(frame1, width=7)
+label_Raj=tk.Label(variaveis,text='Raj:').grid(row=1, column=0)
+caixa_Raj= tk.Entry(variaveis, width=7)
 caixa_Raj.grid(row=1, column=1)
 
-label_RF=tk.Label(frame1,text='RF:').grid(row=2, column=0)
-caixa_RF= tk.Entry(frame1, width=7)
+label_RF=tk.Label(variaveis,text='RF:').grid(row=2, column=0)
+caixa_RF= tk.Entry(variaveis, width=7)
 caixa_RF.grid(row=2, column=1)
 
-label_Vb=tk.Label(frame1,text='Vb:').grid(row=3, column=0)
-caixa_Vb= tk.Entry(frame1, width=7)
+label_Vb=tk.Label(variaveis,text='Vb:').grid(row=3, column=0)
+caixa_Vb= tk.Entry(variaveis, width=7)
 caixa_Vb.grid(row=3, column=1)
 
-label_w=tk.Label(frame1,text='w:').grid(row=4, column=0)
-caixa_w= tk.Entry(frame1, width=7)
+label_w=tk.Label(variaveis,text='w:').grid(row=4, column=0)
+caixa_w= tk.Entry(variaveis, width=7)
 caixa_w.grid(row=4, column=1)
 
-label_Rload=tk.Label(frame1,text='Rload:').grid(row=5, column=0)
-caixa_Rload= tk.Entry(frame1, width=7)
+label_Rload=tk.Label(variaveis,text='Rload:').grid(row=5, column=0)
+caixa_Rload= tk.Entry(variaveis, width=7)
 caixa_Rload.grid(row=5, column=1)
 
-label_IL=tk.Label(frame1,text='IL:').grid(row=6, column=0)
-caixa_IL= tk.Entry(frame1, width=7)
+label_IL=tk.Label(variaveis,text='IL:').grid(row=6, column=0)
+caixa_IL= tk.Entry(variaveis, width=7)
 caixa_IL.grid(row=6, column=1)
 
 
@@ -149,7 +157,7 @@ def armazenar():
     return
 
 button_armazenar = tk.Button(frame1, text='Armazenar', command=armazenar)
-button_armazenar.grid(row=7, column=0, columnspan=2)
+button_armazenar.grid(row = 1, column = 0)
 
 
 
