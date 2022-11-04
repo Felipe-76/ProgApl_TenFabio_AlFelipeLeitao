@@ -29,6 +29,6 @@ O aplicativo será capaz de:
 + Salvar as curvas apresentadas em arquivos .jpeg.
 
 ## Esboço da GUI
-# Tela inicial do aplicativo
+### Tela inicial do aplicativo
 Versão inicial do menu da nossa interface gráfica, as outras janelas se encontram em desenvolvimento.
 ![](esboco.png "Menu")
