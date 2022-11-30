@@ -83,16 +83,15 @@ variaveis = tk.LabelFrame(frame1, text= "Insira aqui as variáveis: ", padx=50, 
 variaveis.grid()
 
 
-label_RA= tk.Label(variaveis,text='RA:').grid(row=0, column=0, sticky="W")
+label_RA= tk.Label(variaveis,text='RA:').grid(row=0, column=0)
 caixa_RA= tk.Entry(variaveis, width=7)
 caixa_RA.grid(row=0, column=1)
-
 
 label_Raj=tk.Label(variaveis,text='Raj:').grid(row=1, column=0)
 caixa_Raj= tk.Entry(variaveis, width=7)
 caixa_Raj.grid(row=1, column=1)
 
-label_RF=tk.Label(variaveis,text='RF:').grid(row=2, column=0)
+label_RF=tk.Label(variaveis,text='Rf:').grid(row=2, column=0)
 caixa_RF= tk.Entry(variaveis, width=7)
 caixa_RF.grid(row=2, column=1)
 
@@ -116,10 +115,9 @@ caixa_IL.grid(row=6, column=1)
 labelteste=tk.Label(frame1,text='IL:')
 
 
- 
+
 def armazenar():   
     gerador.RA=caixa_RA.get()
-    print (gerador.RA)
     gerador.Raj=caixa_Raj.get()
     gerador.Rajlim=caixa_Raj.get()
     label_escalaRaj1=tk.Label(frame2,text='Selecione a Resistencia de Ajuste do Campo').grid(row=2, column=1)
