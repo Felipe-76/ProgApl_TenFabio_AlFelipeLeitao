@@ -38,7 +38,7 @@ fig.savefig("grafico.jpeg")
 
 # root window
 root = tk.Tk()
-# root.iconbitmap('eletrica.ico')
+root.iconbitmap('eletrica.ico')
 
 # Adquirir tamanho da tela
 screen_width = root.winfo_screenwidth()
