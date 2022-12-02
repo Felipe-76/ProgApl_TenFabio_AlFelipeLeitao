@@ -3,7 +3,7 @@ import numpy as np
 
 
 class Gerador:
-    def __init__(self, r_a=0,r_adj=0,r_adjlim=0,r_f=0,w=0,Rload=0,IL=0,Vf=0):
+    def __init__(self, r_a=0,r_adj=0,r_adjlim=30,r_f=0,w=0,Rload=0,IL=0,Vf=0):
         # if r_a <0 or r_adj<0 or r_adjlim<0 : raise ValueError('invalido')
         self.r_a= r_a
         self.r_adj=r_adj
@@ -115,7 +115,7 @@ class Shunt(Gerador):
         
         figshunt, axshunt = plt.subplots()
         axshunt.plot( i_f, Ea, 'b-') 
-        axshunt.plot( i_f, Vt, 'k.')
+        axshunt.plot( i_f, Vt, 'r.')
         axshunt.legend(['Curva de  Magnetização', ' Tensão Terminal'])
         plt.xlabel('Corrente (A)')
         plt.ylabel(' (V)')
