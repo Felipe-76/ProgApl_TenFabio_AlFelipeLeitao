@@ -59,12 +59,11 @@ Para os outros geradores uma vez definidas as variáveis na primeira tela basta 
 ![](Images/passo_shunteserie.png "Simulação Shunt e Série")
 
 ### Instalação de dependências
-No arquivo requirements.txt foi incluído as bibliotecas necessárias para executar o script do arquivo para instalá-las basta fazer o seguinte procedimento:
+No arquivo requirements.txt foi incluído as bibliotecas necessárias para executar o script do arquivo, para instalá-las basta fazer o seguinte procedimento:
 
-+ Passo 1
-Ir até o prompt de comando com o atalho Windows+R e digitar "cmd", após isso apertar Enter.
-Isso irá abrir o terminal do Windows.
-+ Passo 2
++ Passo 1:
+Ir até o prompt de comando com o atalho Windows+R e digitar "cmd", após isso apertar a tecla enter para abrir o terminal do Windows.
++ Passo 2:
 Navegar por meio do comando cd até o diretório onde está o requirements.txt no seu computador.
-+ Passo 3
-Por fim instalar todas as dependências com o comando "pip install -r requirements.txt"
++ Passo 3:
+Por fim instalar todas as dependências com o comando "pip install -r requirements.txt".
