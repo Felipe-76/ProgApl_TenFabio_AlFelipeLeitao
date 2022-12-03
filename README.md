@@ -28,7 +28,7 @@ O aplicativo será capaz de:
 + Salvar as curvas apresentadas em arquivos de imagem.
 
 
-## Esboço da GUI
+## Interface gráfica
 ### Tela inicial do aplicativo
 Menu onde se devem ser inseridas as variáveis do gerador.
 ![](Images/menu.png "Menu")
@@ -45,6 +45,9 @@ Menu onde se devem ser inseridas as variáveis do gerador.
 
 ## Tutorial
 
+### Execução
+Neste repositório foi incluído o arquivo .exe do programa, basta executá-lo para acessar as funcionalidades desenvolvidas.
+
 ### Utilização
 Para definir as variáveis dos geradores basta inserir os valores nas caixas de texto à esquerda, para facilidade do usuário as variáveis iniciais já foram colocadas em valores pertinentes do mundo real.
 ![](Images/armazenar_valores.png "Definir valores")
@@ -58,7 +61,7 @@ Para o gerador de excitação independente será ainda necessário definir a ten
 Para os outros geradores uma vez definidas as variáveis na primeira tela basta clicar em simular:
 ![](Images/passo_shunteserie.png "Simulação Shunt e Série")
 
-### Instalação de dependências
+### Instalação de dependências para compilação
 No arquivo requirements.txt foi incluído as bibliotecas necessárias para executar o script do arquivo, para instalá-las basta fazer o seguinte procedimento:
 
 + Passo 1:
