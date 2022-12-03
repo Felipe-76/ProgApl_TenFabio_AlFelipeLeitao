@@ -44,6 +44,8 @@ Menu onde se devem ser inseridas as variáveis do gerador.
 
 
 ## Tutorial
+
+### Utilização
 Para definir as variáveis dos geradores basta inserir os valores nas caixas de texto à esquerda, para facilidade do usuário as variáveis iniciais já foram colocadas em valores pertinentes do mundo real.
 ![](Images/armazenar_valores.png "Definir valores")
 
@@ -55,3 +57,14 @@ Para o gerador de excitação independente será ainda necessário definir a ten
 
 Para os outros geradores uma vez definidas as variáveis na primeira tela basta clicar em simular:
 ![](Images/passo_shunteserie.png "Simulação Shunt e Série")
+
+### Instalação de dependências
+No arquivo requirements.txt foi incluído as bibliotecas necessárias para executar o script do arquivo para instalá-las basta fazer o seguinte procedimento:
+
++ Passo 1
+Ir até o prompt de comando com o atalho Windows+R e digitar "cmd", após isso apertar Enter.
+Isso irá abrir o terminal do Windows.
++ Passo 2
+Navegar por meio do comando cd até o diretório onde está o requirements.txt no seu computador.
++ Passo 3
+Por fim instalar todas as dependências com o comando "pip install -r requirements.txt"
