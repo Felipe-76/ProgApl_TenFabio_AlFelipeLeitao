@@ -15,20 +15,43 @@ Entre os geradores CC existe a seguinte subdivisão que depende de como o campo 
 + Gerador de excitação independente
 + Gerador Shunt
 + Gerador em série
-+ Gerador composto
+
 ## Motivação
-Nosso trabalho objetiva realizar com praticidade os cálculos de valores terminais e reações internas (reação de armadura) dos diferentes tipos de geradores CC, com intuito acadêmico de facilitar e estimular o aprendizado para estudantes da área de elétrica.
+Nosso trabalho objetiva realizar com praticidade os cálculos de valores terminais dos diferentes tipos de geradores CC, com intuito acadêmico de facilitar e estimular o aprendizado para estudantes da área de elétrica.
 
 ## Função
 
 O aplicativo será capaz de: 
 + Executar cálculos, a partir de características da máquina elétrica e condições de operação inseridas pelo usuário ou obtidas através de sensores;
 + Exibir os resultados de forma tabelada em interface gráfica;
-+ Salvar os dados em formato .csv;
-+ Apresentar curvas relativas a características de tensão terminal e outros dados relevantes do gerador/motor em interface gráfica;
-+ Salvar as curvas apresentadas em arquivos .jpeg.
++ Apresentar curvas relativas a características de tensão terminal e/ou outros dados relevantes do gerador/motor em interface gráfica;
++ Salvar as curvas apresentadas em arquivos de imagem.
+
 
 ## Esboço da GUI
 ### Tela inicial do aplicativo
-Versão inicial do menu da nossa interface gráfica, as outras janelas se encontram em desenvolvimento.
-![](esboco.png "Menu")
+Menu onde se devem ser inseridas as variáveis do gerador.
+![](Images/menu.png "Menu")
+
+### Tela do gerador tipo Excitação independente
+![](Images/exc_ind.png "Gerador Excitação independente")
+
+### Tela do gerador tipo Shunt
+![](Images/shunt.png "Gerador Shunt")
+
+### Tela do gerador tipo Série
+![](Images/serie.png "Gerador Série")
+
+
+## Tutorial
+Para definir as variáveis dos geradores basta inserir os valores nas caixas de texto à esquerda, para facilidade do usuário as variáveis iniciais já foram colocadas em valores pertinentes do mundo real.
+![](Images/armazenar_valores.png "Definir valores")
+
+Em seguida, pode-se movimentar-se para as abas dos diferentes geradores a partir das duas seguintes maneiras:
+![](Images/passo1.png.png "Navegação")
+
+Para o gerador de excitação independente será ainda necessário definir a tensão do enrolamente de campo, em seguida pode-se clicar em simular.
+![](Images/passo_exc_ind.png "Simulação Excitação independente")
+
+Para os outros geradores uma vez definidas as variáveis na primeira tela basta clicar em simular:
+![](Images/passo_shunteserie.png "Simulação Shunt e Série")
